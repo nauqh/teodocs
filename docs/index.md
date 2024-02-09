@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-%230096c7.svg?&style=for-the-badge&logo=python&logoColor=white)
 ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
 
-**Update** (3 Jan 2024): Invite T.e.o to your discord server at [teobot.io](https://nauqh.github.io/error.html)
+**Update** (3 Jan 2024): Invite T.è.o to your discord server at [teobot.io](https://nauqh.github.io/error.html)
 
 ## About the project
 
