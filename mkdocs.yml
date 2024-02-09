@@ -28,6 +28,7 @@ extra:
 
 nav:
     - Home: index.md
+    - Features: features.md
     - What's New: release.md
     - FAQ: faq.md
 
