@@ -1,4 +1,4 @@
-# What's new
+# Release
 
 ## Updates - 10 Feb 2024
 
@@ -11,7 +11,7 @@ To be released
 
 === "Question forum"
 
-    ![Music](assets/exam.png)
+    ![Music](../assets/exam.png)
 
     - [x] Alert moderator regarding recent forum query
     - [x] Add embed link to forum thread through discord embed
@@ -19,7 +19,7 @@ To be released
 
 === "Exam request"
 
-    ![Music](assets/dm.png)
+    ![Music](../assets/dm.png)
    
     - [x] Notify and embed link to exam platform
 

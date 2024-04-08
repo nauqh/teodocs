@@ -1,3 +1,7 @@
+---
+hide:
+  - navigation
+---
 # Features
 
 ## Forum thread management

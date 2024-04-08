@@ -7,8 +7,6 @@ theme:
     name: material
     features:
         - navigation.tabs
-        - navigation.sections
-        - toc.integrate
         - navigation.top
         - search.suggest
         - search.highlight
@@ -26,12 +24,6 @@ extra:
           link: https://github.com/nauqh
         - icon: fontawesome/brands/discord
           link: https://discord.gg/DQ9QBM6HFW
-
-nav:
-    - Home: index.md
-    - Features: features.md
-    - What's New: release.md
-    - FAQ: faq.md
 
 markdown_extensions:
     - pymdownx.inlinehilite
