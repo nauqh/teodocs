@@ -1,4 +1,4 @@
-# 💡What's new
+# What's new
 
 ## Updates - 10 Feb 2024
 

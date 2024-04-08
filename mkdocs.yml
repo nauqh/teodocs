@@ -2,8 +2,8 @@ site_name: Material for Teobot
 repo_url: https://github.com/squidfunk/mkdocs-material
 repo_name: nauqh/teobot
 theme:
-    logo: assets/education.png
-    favicon: assets/education.png
+    logo: assets/poro.png
+    favicon: assets/poro.png
     name: material
     features:
         - navigation.tabs
@@ -17,7 +17,8 @@ theme:
         - content.code.copy
     language: en
     palette:
-        accent: yellow
+        primary: blue grey
+        accent: teal
 
 extra:
     social:
@@ -49,6 +50,11 @@ markdown_extensions:
           alternate_style: true
     - pymdownx.tasklist:
           custom_checkbox: true
+    - pymdownx.superfences:
+          custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_code_format
 
 copyright: |
     Copyright &copy; 2024 <a href="https://github.com/nauqh"  target="_blank">Nauqh</a>

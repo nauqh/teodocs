@@ -31,7 +31,7 @@ The repository structure follows the conceptual architecture of Teobot, which co
 
 To briefly explain these three sub-systems:
 
-- **[Notificator][hikari]** employs `Hikari` utilities to catch new threads created event and directly message moderator for resolution.
+- **[Notificator](https://www.hikari-py.dev/)** employs `Hikari` utilities to catch new threads created event and directly message moderator for resolution.
 - **[Storage][storage]** relies on `SQLite` as a robust and feature-rich database system for persistent storage of forum queries and session log, while leveraging `SQLAlchemy` as the ORM tool for simplified interaction with the database.
 - **[Logger (in development)][logger]** utilizes built-in `Logging` to record and manage thread events, errors, and messages within the server. It employs different log levels to categorize messages, providing a comprehensive overview of system activities.
 
@@ -40,11 +40,10 @@ To briefly explain these three sub-systems:
 
 Since Teobot is built on the basis of Hikari library, it is essential to look for the library documentation for further implementation. 
 
-- Hikari: [hikari-py.dev](hikari)
-- Lightbulb: [lightbulb.readthedocs.io](lightbulb)
+- Hikari: [hikari-py.dev](https://www.hikari-py.dev/)
+- Lightbulb: [lightbulb.readthedocs.io](https://hikari-lightbulb.readthedocs.io/en/latest/)
 
 
 [storage]: https://docs.python.org/3/library/sqlite3.html
 [logger]: https://docs.python.org/3/library/logging.html
-[hikari]: https://www.hikari-py.dev/
-[lightbulb]: https://hikari-lightbulb.readthedocs.io/en/latest/
+

@@ -1,8 +1,8 @@
-# ❓FAQ
+# FAQ
 
 **Last edited** (3 Jan 2024) - Obiwan
 
-## ⚙️Troubleshooting
+## Troubleshooting
 
 **Bot isn't alerting new forum threads!**
 
@@ -17,7 +17,7 @@ Make sure MusicCat is not muted for you by right clicking it in your voice chann
 1. Make sure that the Muted role exists and is configured properly for each channel. The easy way to configure it is to use the `>>setup` muterole command.
 2. Make sure that there aren't any roles with a ✅ Send Messages override in your text channel settings; if a user has a role with a ✅ Send Messages override in a channel, they will be able to talk through the Muted role.
 
-## 💻Getting further support
+## Getting further support
 
 ### **Join the Support Server**
 Feel free to join the support server and ask questions in the [`#support`](https://discord.gg/hikari) channel. Please make sure to include the following:
