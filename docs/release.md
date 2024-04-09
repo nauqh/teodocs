@@ -18,15 +18,11 @@ To be released
 ### Features
 === "Question forum"
 
-    ![Music](../assets/exam.png)
-
     - Alert moderator regarding recent forum query
     - Add embed link to forum thread through discord embed
     - Obtain and communicate resolution to address query posted
 
 === "Exam request"
-
-    ![Music](../assets/dm.png)
    
     - Notify and embed link to exam platform
 
