@@ -6,7 +6,7 @@ title: Home
 
 # T.e.o - The Excellent Organizer
 
-![Version](https://img.shields.io/badge/Latest%20Version-dev1.0.2-%2300b4d8.svg?&style=for-the-badge&logo=git&logoColor=white)
+![Version](https://img.shields.io/badge/Latest%20Version-1.0.0.dev-%2300b4d8.svg?&style=for-the-badge&logo=git&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-%230096c7.svg?&style=for-the-badge&logo=python&logoColor=white)
 ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
 

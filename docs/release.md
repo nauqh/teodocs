@@ -7,13 +7,13 @@ hide:
 !!! note
     Major and minor releases also include the changes specified in prior development releases.
 
-## Updates (2024-02-10)
+## 1.0.0.dev16 (2024-02-10)
 
 To be released
 
 ---
 
-## Refactor (2024-01-03)
+## 1.0.0.dev15 (2024-01-03)
 
 ### Features
 === "Question forum"
@@ -29,3 +29,7 @@ To be released
 ### Bugfixes
 - [x] Resolved issue where bot catches all `NewMessageCreate` events.
 - [x] Resolved bug where bot send notification twice on new thread created.
+
+---
+
+The changelog was added during the development of version 1.0.0.dev14 (2023-12-01), so nothing prior is documented here.

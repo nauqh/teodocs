@@ -4,13 +4,13 @@ hide:
 ---
 # Features
 
-## Forum thread
+## Question forum
 (to be added)
 
 ## Exam request
 (to be added)
 
-## ERD Model
+## ER Models
 
 ```mermaid
 erDiagram
