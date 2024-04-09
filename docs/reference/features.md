@@ -1,10 +1,6 @@
----
-hide:
-  - navigation
----
 # Features
 
-## Forum thread management
+## Forum thread mana    gement
 
 ```mermaid
 erDiagram

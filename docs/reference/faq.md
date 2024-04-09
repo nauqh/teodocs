@@ -1,7 +1,5 @@
 # FAQ
 
-**Last edited** (3 Jan 2024) - Obiwan
-
 ## Troubleshooting
 
 **Bot isn't alerting new forum threads!**
