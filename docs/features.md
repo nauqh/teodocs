@@ -67,6 +67,23 @@ erDiagram
 
 ```
 
+Using [`SQLAlchemy`](https://docs.sqlalchemy.org/en/20/orm/basic_relationships.html) as ORM to connect with PostgreSQL database allows for efficient management of database interactions. Example of the `Thread` model designed using SQLAlchemy:
+```python
+class Thread(Base):
+    __tablename__ = "threads"
+
+    id: Mapped[str] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False)
+    tags: Mapped[list[str]] = mapped_column(ARRAY(String), nullable=False)
+    messages: Mapped[list[str]] = mapped_column(ARRAY(String), nullable=False)
+
+    author_id: Mapped[str] = mapped_column(
+        ForeignKey("users.id"), nullable=False)
+    author: Mapped["User"] = relationship(back_populates="threads")
+```
+
 ## Troubleshooting
 
 **Bot isn't alerting new forum threads!**
