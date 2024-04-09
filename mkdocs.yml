@@ -13,6 +13,7 @@ theme:
         - content.tabs.link
         - content.code.annotation
         - content.code.copy
+        - content.tooltips
     language: en
     palette:
         primary: blue grey
@@ -26,6 +27,7 @@ extra:
           link: https://discord.gg/DQ9QBM6HFW
 
 markdown_extensions:
+    - abbr
     - pymdownx.inlinehilite
     - pymdownx.snippets
     - admonition

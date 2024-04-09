@@ -3,18 +3,16 @@ hide:
   - navigation
 title: Home
 ---
-
-# T.e.o - The Excellent Organizer
+# T.e.o - The Excellent Organizer 
 
 ![Version](https://img.shields.io/badge/Latest%20Version-1.0.0.dev-%2300b4d8.svg?&style=for-the-badge&logo=git&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-%230096c7.svg?&style=for-the-badge&logo=python&logoColor=white)
 ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
 
-**Update** (3 Jan 2024): Invite T.è.o to your discord server at [teobot.io](https://nauqh.github.io/error.html)
+![](./assets/poros.jpg)
 
 ## About the project
-
-T.e.o is a multifunctional bot designed to enhance forum management. Its moderation and logging suite keep track of forum posting and keep your moderator accountable. Its auto-moderator capabilities also allow it to filter out certain types of queries without need for human intervention, lightening the load on the staff team. Finally, T.e.o is designed to be fast and easy to use.
+T.e.o, previously referred to as [**P.o.r.o**]("Productive Organizer and Resource Orchestrator"), is a multifunctional bot designed to enhance forum management. Its moderation and logging suite keep track of forum posting and keep your moderator accountable. Its auto-moderator capabilities also allow it to filter out certain types of queries without need for human intervention, lightening the load on the staff team. Finally, T.e.o is designed to be fast and easy to use.
 
 ## Interoperability
 T.e.o is probably a useful bot for your server if:
@@ -39,7 +37,7 @@ To briefly explain these three sub-systems:
 
 - **[Notificator](https://www.hikari-py.dev/)** employs `Hikari` utilities to catch new threads created event and directly message moderator for resolution.
 - **[Storage][storage]** relies on `PostgreSQL` as a robust and feature-rich database system for persistent storage of forum queries and session log, while leveraging `SQLAlchemy` as the ORM tool for simplified interaction with the database.
-- **[Logger (in development)][logger]** utilizes built-in `Logging` to record and manage thread events, errors, and messages within the server. It employs different log levels to categorize messages, providing a comprehensive overview of system activities.
+- **[Logger][logger]** utilizes built-in `Logging` to record and manage thread events, errors, and messages within the server. It employs different log levels to categorize messages, providing a comprehensive overview of system activities.
 
 
 ## Documentation

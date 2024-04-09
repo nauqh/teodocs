@@ -5,10 +5,15 @@ hide:
 # Features
 
 ## Question forum
-(to be added)
+
+Teobot offers a streamlined solution for managing question forum posts within your server. Users can submit their questions through designated forum channels, categorize them based on topics or subjects, and moderators can review and assist in answering your questions.
+
+With features like `tagging`, `searching`, and `sorting`, users can easily navigate through the forum to find relevant questions or contribute answers. The bot ensures an organized and efficient process for sharing knowledge and fostering discussions among community members.
 
 ## Exam request
-(to be added)
+Simplify the process of handling exam requests with the Discord bot's dedicated feature. Users can submit their exam requests specifying details such as the exam name, date, time, and any additional instructions. Moderators can then review and schedule exams accordingly, sending automated notifications to users with the relevant details. 
+
+Additionally, the bot can manage exam registrations, track attendance, and provide reminders to ensure a smooth and well-organized examination process. By centralizing exam management within Discord, the bot enhances communication and coordination for both administrators and participants.
 
 ## ER Models
 
