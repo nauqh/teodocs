@@ -17,7 +17,55 @@ Additionally, the bot can manage exam registrations, track attendance, and provi
 
 ## ER Models
 
-![schema](assets/schema.png)
+```mermaid
+erDiagram
+    threads {
+        int id PK
+        string name
+        datetime created_at
+        int[] tags
+        int[] messages
+        int author_id FK
+    }
+
+    users {
+        int id PK
+        string name
+        bool is_bot
+    }
+
+    user_roles {
+        int user_id PK, FK
+        int role_id PK, FK
+    }
+
+    roles {
+        int id PK
+        string name
+        int position
+    }
+
+    users ||--|{ user_roles : has
+    roles ||--|{ user_roles : "belongs to"
+
+    users ||--o{ threads : creates
+    
+    tags {
+        int id PK
+        string name
+    }
+
+    threads ||--|{ tags : has
+
+    messages {
+        int id PK
+        string content
+        datetime created_at
+    }
+
+    threads ||--|{ messages : has
+
+```
 
 Using [`SQLAlchemy`](https://docs.sqlalchemy.org/en/20/orm/basic_relationships.html) as ORM to connect with PostgreSQL database allows for efficient management of database interactions. Example of the `Thread` model designed using SQLAlchemy:
 ```python
