@@ -12,7 +12,9 @@ title: Home
 ![](./assets/poros.jpg)
 
 ## About the project
-T.e.o, previously referred to as [**P.o.r.o**]("Productive Organizer and Resource Orchestrator"), is a multifunctional bot designed to enhance forum management. Its moderation and logging suite keep track of forum posting and keep your moderator accountable. Its auto-moderator capabilities also allow it to filter out certain types of queries without need for human intervention, lightening the load on the staff team. Finally, T.e.o is designed to be fast and easy to use.
+T.e.o, formerly known as [**P.o.r.o**]("Productive Organizer and Resource Orchestrator"), is a multifunctional bot designed to enhance forum management. With its advanced moderation and logging capabilities, it meticulously monitors forum activity, promoting moderator accountability and easing the workload for staff members by automating query filtering. 
+
+Moreover, T.e.o excels in proactive engagement by sending timely reminders to TAs staff regarding unresolved queries as well as generating comprehensive monthly reports on forum interactions. Its user-friendly interface ensures efficient and swift operation, making it an indispensable tool for forum management.
 
 ## Interoperability
 T.e.o is probably a useful bot for your server if:
