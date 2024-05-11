@@ -37,7 +37,7 @@ The repository structure follows the conceptual architecture of Teobot, which co
 
 To briefly explain these three sub-systems:
 
-- **[Notificator](https://www.hikari-py.dev/)** employs `Hikari` utilities to catch new threads created event and directly message moderator for resolution.
+- **[Notificator](https://www.hikari-py.dev/)** utilizes `Asyncio` for interval checking of unresolved threads, ensuring timely notifications to moderators for thread resolution.
 - **[Storage][storage]** relies on `PostgreSQL` as a robust and feature-rich database system for persistent storage of forum queries and session log, while leveraging `SQLAlchemy` as the ORM tool for simplified interaction with the database.
 - **[Logger][logger]** utilizes built-in `Logging` to record and manage thread events, errors, and messages within the server. It employs different log levels to categorize messages, providing a comprehensive overview of system activities.
 
