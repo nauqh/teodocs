@@ -1,8 +1,3 @@
----
-hide:
-  - navigation
-title: Home
----
 # T.e.o - The Excellent Organizer 
 
 ![Version](https://img.shields.io/badge/Latest%20Version-1.0.0.dev-%2300b4d8.svg?&style=for-the-badge&logo=git&logoColor=white)
