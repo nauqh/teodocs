@@ -51,4 +51,4 @@ markdown_extensions:
                 format: !!python/name:pymdownx.superfences.fence_code_format
 
 copyright: |
-    Copyright &copy; 2024 <a href="https://github.com/nauqh"  target="_blank">Nauqh</a>
+    Design & developed by <a href="https://github.com/nauqh"  target="_blank">Nauqh</a>
